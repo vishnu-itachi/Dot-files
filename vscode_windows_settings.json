@@ -1,0 +1,132 @@
+{
+    // EDITOR SETTINGS
+    "editor.fontSize": 15,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "*.sln": "default"
+    },
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.suggestSelection": "first",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    // "editor.fontFamily": "cascadia mono",
+    "editor.fontFamily": "JetBrains Mono",
+    "git.autofetch": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.inlineSuggest.enabled": true,
+    "code-runner.runInTerminal": true,
+    "editor.bracketPairColorization.enabled": true,
+    // TABNINE AND KITE SETTINGS
+    "tabnine.experimentalAutoImports": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    // PROXY SETTINGS
+    "http.proxyAuthorization": null,
+    // PYTHON SETTINGS
+    "python.formatting.blackPath": "C:\\Anaconda3\\Scripts\\black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "black",
+    "python.analysis.typeCheckingMode": "basic",
+    "jupyter.interactiveWindowMode": "perFile",
+    // CLANG SETTINGS
+    "clang.executable": "C:\\Program Files\\LLVM\\bin\\clang",
+    "clang-tidy.executable": "C:\\Program Files\\LLVM\\bin\\clang-tidy",
+    "clang-tidy.lintOnSave": false,
+    // C++ SETTINGS
+    "C_Cpp.clang_format_path": "C:\\Program Files\\LLVM\\bin\\clang-format",
+    "C_Cpp.default.includePath": [
+        "D:\\program files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include",
+        "D:\\program files\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include",
+        "D:\\program files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\Llvm\\lib\\clang\\13.0.0\\include",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt\\winrt",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt",
+        "C:\\MinGW\\include\\c++\\11.2.0"
+    ],
+    "C_Cpp.autocomplete": "Default",
+    "C_Cpp.default.intelliSenseMode": "windows-clang-x64",
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    // C++ LINTER DETAILS
+    "c-cpp-flylint.clang.standard": [
+        "c++11",
+        "c++14",
+        "c++17",
+        "c++20"
+    ],
+    "c-cpp-flylint.enable": true,
+    // "c-cpp-flylint.ignoreParseErrors": true,
+    // "c-cpp-flylint.cppcheck.verbose": true,
+    // "c-cpp-flylint.debug": true,
+    "c-cpp-flylint.cppcheck.executable": "C:\\Program Files\\Cppcheck\\cppcheck",
+    "c-cpp-flylint.flawfinder.executable": "C:\\Anaconda\\Scripts\\flawfinder",
+    "c-cpp-flylint.flawfinder.enable": false,
+    "c-cpp-flylint.lizard.enable": false,
+    "c-cpp-flylint.flexelint.enable": false,
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    // CMAKE SETTINGS
+    "cmake.configureOnOpen": true,
+    // JAVA SETTINGS
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "sonarlint.ls.javaHome": "C:\\Users\\U Vishnu\\.jdks\\adopt-openjdk-11.0.12",
+    // DART SETTINGS
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            0
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.openDevTools": "flutter",
+    "dart.flutterHotReloadOnSave": "always",
+    // GITHUB COPILOT SETTINGS
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "python": true
+    },
+    // CONTAINERS
+    "remote.containers.executeInWSL": true,
+    "docker.containers.label": "ContainerId",
+    // FORMATERS
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "C_Cpp.autocompleteAddParentheses": true,
+    "workbench.colorTheme": "Intellij Color Theme",
+}
